@@ -9,3 +9,5 @@ CREATE TABLE burgers
 	date TIMESTAMP DEFAULT now(),
 	PRIMARY KEY (id)
 );
+
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'rpnd81216';

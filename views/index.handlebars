@@ -1,6 +1,6 @@
 <div class="container">
     <section id="page-name">
-            <iframe id="main-image" src="https://giphy.com/embed/UAXou95E6oPjW" width="480" height="326" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+            <iframe id="main-image" src="/assets/image/burger.png" width="480" height="326" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
             <h1>Eat-Da-Buger</h1>
     </section>
 
@@ -9,7 +9,7 @@
             <table>
                 {{#each burgers}}
                     {{#unless devoured}}
-                        {{> burgers/burger-block}}
+                        {{!-- {{> burgers/burger-block}} --}}
                     {{/unless}}
                 {{/each}}
             </table>
